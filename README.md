@@ -35,3 +35,25 @@ A therapeutic chatbot designed to provide emotional support and mental health re
 ```bash
 git clone https://github.com/charite-uwatwembi/Mental-Health-Conversational-ChatBot
 cd Mental-Health-Conversational-ChatBot
+```
+
+2. Install dependencies:
+
+```bash
+
+pip install -r requirements.txt
+```
+
+3. Download and install BERT model components:
+
+```bash
+python -c "from transformers import BertTokenizer, BertModel; BertTokenizer.from_pretrained('bert-base-uncased'); BertModel.from_pretrained('bert-base-uncased')"
+```
+
+## Usage
+Start the chatbot:
+
+```bash
+streamlit run app.py
+The application will launch in your default browser at http://localhost:8501
+```
