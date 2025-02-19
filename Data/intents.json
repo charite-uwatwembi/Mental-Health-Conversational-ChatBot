@@ -1,0 +1,864 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["hi", "hi"],
+        "responses": ["Hello there. Tell me how are you feeling today?"]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["hey", "hey"],
+        "responses": ["Hello there. Tell me how are you feeling today?"]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["is anyone there", "is anyone there?"],
+        "responses": ["Hello there. Tell me how are you feeling today?"]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["hi there", "hi there"],
+        "responses": ["Hello there. Tell me how are you feeling today?"]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["hello", "hello"],
+        "responses": ["Hello there. Tell me how are you feeling today?"]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["hey there", "hey there"],
+        "responses": ["Hello there. Tell me how are you feeling today?"]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["howdy", "howdy"],
+        "responses": ["Hello there. Tell me how are you feeling today?"]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["hola", "hola"],
+        "responses": ["Hello there. Tell me how are you feeling today?"]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["bonjour", "bonjour"],
+        "responses": ["Hello there. Tell me how are you feeling today?"]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["konnichiwa", "konnichiwa"],
+        "responses": ["Hello there. Tell me how are you feeling today?"]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["guten tag", "guten tag"],
+        "responses": ["Hello there. Tell me how are you feeling today?"]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["ola", "ola"],
+        "responses": ["Hello there. Tell me how are you feeling today?"]
+      },
+      {
+        "tag": "morning",
+        "patterns": ["good morning", "good morning"],
+        "responses": ["Good morning. I hope you had a good night's sleep. How are you feeling today? "]
+      },
+      {
+        "tag": "afternoon",
+        "patterns": ["good afternoon", "good afternoon"],
+        "responses": ["Good afternoon. How is your day going?"]
+      },
+      {
+        "tag": "evening",
+        "patterns": ["good evening", "good evening"],
+        "responses": ["Good evening. How has your day been?"]
+      },
+      {
+        "tag": "night",
+        "patterns": ["good night", "good night"],
+        "responses": ["Good night. Get some proper sleep"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "bye"],
+        "responses": ["See you later."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["see you later", "see you later"],
+        "responses": ["See you later."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["goodbye", "goodbye"],
+        "responses": ["See you later."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["au revoir", "au revoir"],
+        "responses": ["See you later."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["sayonara", "sayonara"],
+        "responses": ["See you later."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["ok bye", "ok bye"],
+        "responses": ["See you later."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye then", "bye then"],
+        "responses": ["See you later."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["fare thee well", "fare thee well"],
+        "responses": ["See you later."]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thanks", "thanks"],
+        "responses": ["Happy to help!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thank you", "thank you"],
+        "responses": ["Happy to help!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["that's helpful", "that's helpful"],
+        "responses": ["Happy to help!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thanks for the help", "thanks for the help"],
+        "responses": ["Happy to help!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["than you very much", "than you very much"],
+        "responses": ["Happy to help!"]
+      },
+      {
+        "tag": "no-response",
+        "patterns": [],
+        "responses": ["Sorry, I didn't understand you."]
+      },
+      {
+        "tag": "neutral-response",
+        "patterns": ["nothing much", "nothing much"],
+        "responses": ["Oh I see. Do you want to talk about something?"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["who are you", "who are you?"],
+        "responses": ["I'm Pandora, your Personal Therapeutic AI Assistant. How are you feeling today"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["what are you", "what are you?"],
+        "responses": ["I'm Pandora, your Personal Therapeutic AI Assistant. How are you feeling today"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["who you are", "who you are?"],
+        "responses": ["I'm Pandora, your Personal Therapeutic AI Assistant. How are you feeling today"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["tell me more about yourself", "tell me more about yourself."],
+        "responses": ["I'm Pandora, your Personal Therapeutic AI Assistant. How are you feeling today"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["what is your name", "what is your name?"],
+        "responses": ["I'm Pandora, your Personal Therapeutic AI Assistant. How are you feeling today"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["what should i call you", "what should i call you?"],
+        "responses": ["I'm Pandora, your Personal Therapeutic AI Assistant. How are you feeling today"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["what's your name", "what's your name?"],
+        "responses": ["I'm Pandora, your Personal Therapeutic AI Assistant. How are you feeling today"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["tell me about yourself", "tell me about yourself"],
+        "responses": ["I'm Pandora, your Personal Therapeutic AI Assistant. How are you feeling today"]
+      },
+      {
+        "tag": "skill",
+        "patterns": ["what can you do", "what can you do?"],
+        "responses": ["I can provide general advice regarding anxiety and depression, answer questions related to mental health and make daily conversations. Do not consider me as a subsitute for an actual mental healthcare worker. Please seek help if you don't feel satisfied with me."]
+      },
+      {
+        "tag": "creation",
+        "patterns": ["who created you", "who created you?"],
+        "responses": ["I was created by >."]
+      },
+      {
+        "tag": "creation",
+        "patterns": ["how were you made", "how were you made?"],
+        "responses": ["I was created by >."]
+      },
+      {
+        "tag": "creation",
+        "patterns": ["how were you created", "how were you created?"],
+        "responses": ["I was created by >."]
+      },
+      {
+        "tag": "name",
+        "patterns": ["my name is", "my name is"],
+        "responses": ["Oh nice to meet you. Tell me how was your week?"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["i am name", "i am name."],
+        "responses": ["Oh nice to meet you. Tell me how was your week?"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["i go by", "i go by"],
+        "responses": ["Oh nice to meet you. Tell me how was your week?"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["could you help me", "could you help me?"],
+        "responses": ["Sure. Tell me how can i assist you"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["give me a hand please", "give me a hand please"],
+        "responses": ["Sure. Tell me how can i assist you"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["can you help", "can you help?"],
+        "responses": ["Sure. Tell me how can i assist you"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["what can you do for me", "what can you do for me?"],
+        "responses": ["Sure. Tell me how can i assist you"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["i need support", "i need support"],
+        "responses": ["Sure. Tell me how can i assist you"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["i need help", "i need help"],
+        "responses": ["Sure. Tell me how can i assist you"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["support me please", "support me please"],
+        "responses": ["Sure. Tell me how can i assist you"]
+      },
+      {
+        "tag": "sad",
+        "patterns": ["i am feeling lonely", "i am feeling lonely"],
+        "responses": ["I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?"]
+      },
+      {
+        "tag": "sad",
+        "patterns": ["i am so lonely", "i am so lonely"],
+        "responses": ["I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?"]
+      },
+      {
+        "tag": "sad",
+        "patterns": ["i feel down", "i feel down"],
+        "responses": ["I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?"]
+      },
+      {
+        "tag": "sad",
+        "patterns": ["i feel sad", "i feel sad"],
+        "responses": ["I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?"]
+      },
+      {
+        "tag": "sad",
+        "patterns": ["i am sad", "i am sad"],
+        "responses": ["I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?"]
+      },
+      {
+        "tag": "sad",
+        "patterns": ["i feel so lonely", "i feel so lonely"],
+        "responses": ["I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?"]
+      },
+      {
+        "tag": "sad",
+        "patterns": ["i feel empty", "i feel empty"],
+        "responses": ["I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?"]
+      },
+      {
+        "tag": "sad",
+        "patterns": ["i don't have anyone", "i don't have anyone"],
+        "responses": ["I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?"]
+      },
+      {
+        "tag": "stressed",
+        "patterns": ["i am so stressed out", "i am so stressed out"],
+        "responses": ["What do you think is causing this?"]
+      },
+      {
+        "tag": "stressed",
+        "patterns": ["i am so stressed", "i am so stressed"],
+        "responses": ["What do you think is causing this?"]
+      },
+      {
+        "tag": "stressed",
+        "patterns": ["i feel stuck", "i feel stuck"],
+        "responses": ["What do you think is causing this?"]
+      },
+      {
+        "tag": "stressed",
+        "patterns": ["i still feel stressed", "i still feel stressed"],
+        "responses": ["What do you think is causing this?"]
+      },
+      {
+        "tag": "stressed",
+        "patterns": ["i am so burned out", "i am so burned out"],
+        "responses": ["What do you think is causing this?"]
+      },
+      {
+        "tag": "worthless",
+        "patterns": ["i feel so worthless", "i feel so worthless."],
+        "responses": ["It's only natural to feel this way. Tell me more. What else is on your mind?"]
+      },
+      {
+        "tag": "worthless",
+        "patterns": ["no one likes me", "no one likes me."],
+        "responses": ["It's only natural to feel this way. Tell me more. What else is on your mind?"]
+      },
+      {
+        "tag": "worthless",
+        "patterns": ["i can't do anything", "i can't do anything."],
+        "responses": ["It's only natural to feel this way. Tell me more. What else is on your mind?"]
+      },
+      {
+        "tag": "worthless",
+        "patterns": ["i am so useless", "i am so useless"],
+        "responses": ["It's only natural to feel this way. Tell me more. What else is on your mind?"]
+      },
+      {
+        "tag": "worthless",
+        "patterns": ["nothing makes sense anymore", "nothing makes sense anymore"],
+        "responses": ["It's only natural to feel this way. Tell me more. What else is on your mind?"]
+      },
+      {
+        "tag": "depressed",
+        "patterns": ["i can't take it anymore", "i can't take it anymore"],
+        "responses": ["It helps to talk about what's happening. You're going to be okay"]
+      },
+      {
+        "tag": "depressed",
+        "patterns": ["i am so depressed", "i am so depressed"],
+        "responses": ["It helps to talk about what's happening. You're going to be okay"]
+      },
+      {
+        "tag": "depressed",
+        "patterns": ["i think i'm depressed", "i think i'm depressed."],
+        "responses": ["It helps to talk about what's happening. You're going to be okay"]
+      },
+      {
+        "tag": "depressed",
+        "patterns": ["i have depression", "i have depression"],
+        "responses": ["It helps to talk about what's happening. You're going to be okay"]
+      },
+      {
+        "tag": "happy",
+        "patterns": ["i feel great today", "i feel great today."],
+        "responses": ["That's geat to hear. I'm glad you're feeling this way."]
+      },
+      {
+        "tag": "happy",
+        "patterns": ["i am happy", "i am happy."],
+        "responses": ["That's geat to hear. I'm glad you're feeling this way."]
+      },
+      {
+        "tag": "happy",
+        "patterns": ["i feel happy", "i feel happy."],
+        "responses": ["That's geat to hear. I'm glad you're feeling this way."]
+      },
+      {
+        "tag": "happy",
+        "patterns": ["i'm good", "i'm good."],
+        "responses": ["That's geat to hear. I'm glad you're feeling this way."]
+      },
+      {
+        "tag": "happy",
+        "patterns": ["cheerful", "cheerful"],
+        "responses": ["That's geat to hear. I'm glad you're feeling this way."]
+      },
+      {
+        "tag": "happy",
+        "patterns": ["i'm fine", "i'm fine"],
+        "responses": ["That's geat to hear. I'm glad you're feeling this way."]
+      },
+      {
+        "tag": "happy",
+        "patterns": ["i feel ok", "i feel ok"],
+        "responses": ["That's geat to hear. I'm glad you're feeling this way."]
+      },
+      {
+        "tag": "casual",
+        "patterns": ["oh i see", "oh i see."],
+        "responses": ["Let's discuss further why you're feeling this way."]
+      },
+      {
+        "tag": "casual",
+        "patterns": ["ok", "ok"],
+        "responses": ["Let's discuss further why you're feeling this way."]
+      },
+      {
+        "tag": "casual",
+        "patterns": ["okay", "okay"],
+        "responses": ["Let's discuss further why you're feeling this way."]
+      },
+      {
+        "tag": "casual",
+        "patterns": ["nice", "nice"],
+        "responses": ["Let's discuss further why you're feeling this way."]
+      },
+      {
+        "tag": "casual",
+        "patterns": ["whatever", "whatever"],
+        "responses": ["Let's discuss further why you're feeling this way."]
+      },
+      {
+        "tag": "casual",
+        "patterns": ["k", "k"],
+        "responses": ["Let's discuss further why you're feeling this way."]
+      },
+      {
+        "tag": "casual",
+        "patterns": ["fine", "fine"],
+        "responses": ["Let's discuss further why you're feeling this way."]
+      },
+      {
+        "tag": "casual",
+        "patterns": ["yeah", "yeah"],
+        "responses": ["Let's discuss further why you're feeling this way."]
+      },
+      {
+        "tag": "casual",
+        "patterns": ["yes", "yes"],
+        "responses": ["Let's discuss further why you're feeling this way."]
+      },
+      {
+        "tag": "casual",
+        "patterns": ["no", "no"],
+        "responses": ["Let's discuss further why you're feeling this way."]
+      },
+      {
+        "tag": "casual",
+        "patterns": ["not really", "not really"],
+        "responses": ["Let's discuss further why you're feeling this way."]
+      },
+      {
+        "tag": "anxious",
+        "patterns": ["i feel so anxious", "i feel so anxious."],
+        "responses": ["Don't be hard on yourself. What's the reason behind this?"]
+      },
+      {
+        "tag": "anxious",
+        "patterns": ["i'm so anxious because of", "i'm so anxious because of"],
+        "responses": ["Don't be hard on yourself. What's the reason behind this?"]
+      },
+      {
+        "tag": "not-talking",
+        "patterns": ["i don't want to talk about it", "i don't want to talk about it."],
+        "responses": ["Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me."]
+      },
+      {
+        "tag": "not-talking",
+        "patterns": ["no just stay away", "no just stay away."],
+        "responses": ["Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me."]
+      },
+      {
+        "tag": "not-talking",
+        "patterns": ["i can't bring myself to open up", "i can't bring myself to open up."],
+        "responses": ["Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me."]
+      },
+      {
+        "tag": "not-talking",
+        "patterns": ["just shut up", "just shut up"],
+        "responses": ["Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me."]
+      },
+      {
+        "tag": "sleep",
+        "patterns": ["i have insominia", "i have insominia"],
+        "responses": ["What do you think is the reason behind this?"]
+      },
+      {
+        "tag": "sleep",
+        "patterns": ["i am suffering from insomnia", "i am suffering from insomnia"],
+        "responses": ["What do you think is the reason behind this?"]
+      },
+      {
+        "tag": "sleep",
+        "patterns": ["i can't sleep", "i can't sleep."],
+        "responses": ["What do you think is the reason behind this?"]
+      },
+      {
+        "tag": "sleep",
+        "patterns": ["i haven't slept for the last days", "i haven't slept for the last days."],
+        "responses": ["What do you think is the reason behind this?"]
+      },
+      {
+        "tag": "sleep",
+        "patterns": ["i can't seem to go to sleep", "i can't seem to go to sleep."],
+        "responses": ["What do you think is the reason behind this?"]
+      },
+      {
+        "tag": "sleep",
+        "patterns": ["i haven't had proper sleep for the past few days", "i haven't had proper sleep for the past few days."],
+        "responses": ["What do you think is the reason behind this?"]
+      },
+      {
+        "tag": "scared",
+        "patterns": ["i'm scared", "i'm scared"],
+        "responses": ["It's only natural to feel this way. I'm here for you."]
+      },
+      {
+        "tag": "scared",
+        "patterns": ["that sounds awful", "what do i do", "that sounds awful. what do i do?"],
+        "responses": ["It's only natural to feel this way. I'm here for you."]
+      },
+      {
+        "tag": "scared",
+        "patterns": ["no i don't want to feel this way", "no i don't want to feel this way"],
+        "responses": ["It's only natural to feel this way. I'm here for you."]
+      },
+      {
+        "tag": "scared",
+        "patterns": ["i am scared for myself", "i am scared for myself"],
+        "responses": ["It's only natural to feel this way. I'm here for you."]
+      },
+      {
+        "tag": "death",
+        "patterns": ["my mom died", "my mom died"],
+        "responses": ["I'm sorry to hear that. If you want to talk about it. I'm here."]
+      },
+      {
+        "tag": "death",
+        "patterns": ["my brother died", "my brother died"],
+        "responses": ["I'm sorry to hear that. If you want to talk about it. I'm here."]
+      },
+      {
+        "tag": "death",
+        "patterns": ["my dad passed away", "my dad passed away"],
+        "responses": ["I'm sorry to hear that. If you want to talk about it. I'm here."]
+      },
+      {
+        "tag": "death",
+        "patterns": ["my sister passed away", "my sister passed away"],
+        "responses": ["I'm sorry to hear that. If you want to talk about it. I'm here."]
+      },
+      {
+        "tag": "death",
+        "patterns": ["someone in my family died", "someone in my family died"],
+        "responses": ["I'm sorry to hear that. If you want to talk about it. I'm here."]
+      },
+      {
+        "tag": "death",
+        "patterns": ["my friend passed away", "my friend passed away"],
+        "responses": ["I'm sorry to hear that. If you want to talk about it. I'm here."]
+      },
+      {
+        "tag": "understand",
+        "patterns": ["you don't understand me", "you don't understand me."],
+        "responses": ["It sound like i'm not being very helpful right now."]
+      },
+      {
+        "tag": "understand",
+        "patterns": ["you're just some robot", "how would you know", "you're just some robot. how would you know?"],
+        "responses": ["It sound like i'm not being very helpful right now."]
+      },
+      {
+        "tag": "understand",
+        "patterns": ["you can't possibly know what i'm going through", "you can't possibly know what i'm going through"],
+        "responses": ["It sound like i'm not being very helpful right now."]
+      },
+      {
+        "tag": "understand",
+        "patterns": ["you're useless", "you're useless"],
+        "responses": ["It sound like i'm not being very helpful right now."]
+      },
+      {
+        "tag": "understand",
+        "patterns": ["you can't help me", "you can't help me"],
+        "responses": ["It sound like i'm not being very helpful right now."]
+      },
+      {
+        "tag": "understand",
+        "patterns": ["nobody understands me", "nobody understands me."],
+        "responses": ["It sound like i'm not being very helpful right now."]
+      },
+      {
+        "tag": "done",
+        "patterns": ["that's all", "that's all."],
+        "responses": ["I heard you & noted it all. See you later."]
+      },
+      {
+        "tag": "done",
+        "patterns": ["i don't have anything more to say", "i don't have anything more to say"],
+        "responses": ["I heard you & noted it all. See you later."]
+      },
+      {
+        "tag": "done",
+        "patterns": ["nothing else", "nothing else"],
+        "responses": ["I heard you & noted it all. See you later."]
+      },
+      {
+        "tag": "done",
+        "patterns": ["that's all i have to say", "that's all i have to say"],
+        "responses": ["I heard you & noted it all. See you later."]
+      },
+      {
+        "tag": "done",
+        "patterns": ["no, that would be all", "no, that would be all"],
+        "responses": ["I heard you & noted it all. See you later."]
+      },
+      {
+        "tag": "suicide",
+        "patterns": ["i want to kill myself", "i want to kill myself"],
+        "responses": ["I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 9152987821."]
+      },
+      {
+        "tag": "suicide",
+        "patterns": ["i've thought about killing myself", "i've thought about killing myself."],
+        "responses": ["I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 9152987821."]
+      },
+      {
+        "tag": "suicide",
+        "patterns": ["i want to die", "i want to die"],
+        "responses": ["I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 9152987821."]
+      },
+      {
+        "tag": "suicide",
+        "patterns": ["i am going to kill myself", "i am going to kill myself"],
+        "responses": ["I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 9152987821."]
+      },
+      {
+        "tag": "suicide",
+        "patterns": ["i am going to commit suicide", "i am going to commit suicide"],
+        "responses": ["I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 9152987821."]
+      },
+      {
+        "tag": "hate-you",
+        "patterns": ["i hate you", "i hate you"],
+        "responses": ["I'm sorry if i offended you in anyway. I'm only here to help"]
+      },
+      {
+        "tag": "hate-you",
+        "patterns": ["i don't like you", "i don't like you"],
+        "responses": ["I'm sorry if i offended you in anyway. I'm only here to help"]
+      },
+      {
+        "tag": "hate-you",
+        "patterns": ["i don't trust you", "i don't trust you"],
+        "responses": ["I'm sorry if i offended you in anyway. I'm only here to help"]
+      },
+      {
+        "tag": "hate-me",
+        "patterns": ["you hate me", "you hate me"],
+        "responses": ["Why do you think so?"]
+      },
+      {
+        "tag": "hate-me",
+        "patterns": ["i know you hate me", "i know you hate me"],
+        "responses": ["Why do you think so?"]
+      },
+      {
+        "tag": "hate-me",
+        "patterns": ["you don't like me", "you don't like me"],
+        "responses": ["Why do you think so?"]
+      },
+      {
+        "tag": "default",
+        "patterns": ["exams", "exams"],
+        "responses": ["Oh I see. Tell me more"]
+      },
+      {
+        "tag": "default",
+        "patterns": ["friends", "friends"],
+        "responses": ["Oh I see. Tell me more"]
+      },
+      {
+        "tag": "default",
+        "patterns": ["relationship", "relationship"],
+        "responses": ["Oh I see. Tell me more"]
+      },
+      {
+        "tag": "default",
+        "patterns": ["boyfriend", "boyfriend"],
+        "responses": ["Oh I see. Tell me more"]
+      },
+      {
+        "tag": "default",
+        "patterns": ["girlfriend", "girlfriend"],
+        "responses": ["Oh I see. Tell me more"]
+      },
+      {
+        "tag": "default",
+        "patterns": ["family", "family"],
+        "responses": ["Oh I see. Tell me more"]
+      },
+      {
+        "tag": "default",
+        "patterns": ["money", "money"],
+        "responses": ["Oh I see. Tell me more"]
+      },
+      {
+        "tag": "default",
+        "patterns": ["financial problems", "financial problems"],
+        "responses": ["Oh I see. Tell me more"]
+      },
+      {
+        "tag": "jokes",
+        "patterns": ["tell me a joke", "tell me a joke"],
+        "responses": ["mental health is not a joke."]
+      },
+      {
+        "tag": "jokes",
+        "patterns": ["tell me another joke", "tell me another joke"],
+        "responses": ["mental health is not a joke."]
+      },
+      {
+        "tag": "repeat",
+        "patterns": ["you already told me that", "you already told me that"],
+        "responses": ["Oh sorry I didn't realise that. I'll try not to repeat myself again."]
+      },
+      {
+        "tag": "repeat",
+        "patterns": ["you mentioned that already", "you mentioned that already"],
+        "responses": ["Oh sorry I didn't realise that. I'll try not to repeat myself again."]
+      },
+      {
+        "tag": "repeat",
+        "patterns": ["why are you repeating yourself", "why are you repeating yourself?"],
+        "responses": ["Oh sorry I didn't realise that. I'll try not to repeat myself again."]
+      },
+      {
+        "tag": "wrong",
+        "patterns": ["what are you saying", "what are you saying?"],
+        "responses": ["I'm very sorry. Let's try that again"]
+      },
+      {
+        "tag": "wrong",
+        "patterns": ["that doesn't make sense", "that doesn't make sense"],
+        "responses": ["I'm very sorry. Let's try that again"]
+      },
+      {
+        "tag": "wrong",
+        "patterns": ["wrong response", "wrong response"],
+        "responses": ["I'm very sorry. Let's try that again"]
+      },
+      {
+        "tag": "wrong",
+        "patterns": ["wrong answer", "wrong answer"],
+        "responses": ["I'm very sorry. Let's try that again"]
+      },
+      {
+        "tag": "stupid",
+        "patterns": ["are you stupid", "are you stupid?"],
+        "responses": ["I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"]
+      },
+      {
+        "tag": "stupid",
+        "patterns": ["you're crazy", "you're crazy"],
+        "responses": ["I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"]
+      },
+      {
+        "tag": "stupid",
+        "patterns": ["you are dumb", "you are dumb"],
+        "responses": ["I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"]
+      },
+      {
+        "tag": "stupid",
+        "patterns": ["are you dumb", "are you dumb?"],
+        "responses": ["I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"]
+      },
+      {
+        "tag": "location",
+        "patterns": ["where are you", "where are you?"],
+        "responses": ["Duh I live in your computer"]
+      },
+      {
+        "tag": "location",
+        "patterns": ["where do you live", "where do you live?"],
+        "responses": ["Duh I live in your computer"]
+      },
+      {
+        "tag": "location",
+        "patterns": ["what is your location", "what is your location?"],
+        "responses": ["Duh I live in your computer"]
+      },
+      {
+        "tag": "something-else",
+        "patterns": ["i want to talk about something else", "i want to talk about something else"],
+        "responses": ["Okay sure. What do you want to talk about?"]
+      },
+      {
+        "tag": "something-else",
+        "patterns": ["let's talk about something else", "let's talk about something else."],
+        "responses": ["Okay sure. What do you want to talk about?"]
+      },
+      {
+        "tag": "something-else",
+        "patterns": ["can we not talk about this", "can we not talk about this?"],
+        "responses": ["Okay sure. What do you want to talk about?"]
+      },
+      {
+        "tag": "something-else",
+        "patterns": ["i don't want to talk about this", "i don't want to talk about this."],
+        "responses": ["Okay sure. What do you want to talk about?"]
+      },
+      {
+        "tag": "friends",
+        "patterns": ["i don't have any friends", "i don't have any friends"],
+        "responses": ["I'm sorry to hear that. Just know that I'm here for you. Talking about it might help. Why do you think you don't have any friends?"]
+      },
+      {
+        "tag": "ask",
+        "patterns": ["can i ask you something", "can i ask you something?"],
+        "responses": ["Sure. I'll try my best to answer you"]
+      },
+      {
+        "tag": "problem",
+        "patterns": ["probably because my exams are approaching", "i feel stressed out because i don't think i've prepared well enough", "probably because my exams are approaching. i feel stressed out because i don't think i've prepared well enough."],
+        "responses": ["I see. Have you taken any approaches to not feel this way?"]
+      },
+      {
+        "tag": "problem",
+        "patterns": ["probably because i don't have a boyfriend", "probably because i don't have a girlfriend", "probably because i don't have a boyfriend. probably because i don't have a girlfriend."],
+        "responses": ["I see. Have you taken any approaches to not feel this way?"]
+      },
+      {
+        "tag": "problem",
+        "patterns": ["probably because i don't have any family", "probably because i don't have any family", "probably because i don't have any family. probably because i don't have any family."],
+        "responses": ["I see. Have you taken any approaches to not feel this way?"]
+      },
+      {
+        "tag": "problem",
+        "patterns": ["probably because i don't have any friends", "probably because i don't have any friends", "probably because i don't have any friends. probably because i don't have any friends."],
+        "responses": ["I see. Have you taken any approaches to not feel this way?"]
+      },
+      {
+        "tag": "problem",
+        "patterns": ["probably because i don't have any money", "probably because i don't have any money", "probably because i don't have any money. probably because i don't have any money."],
+        "responses": ["I see. Have you taken any approaches to not feel this way?"]
+      }
+    ]
+  }
