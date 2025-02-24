@@ -70,7 +70,12 @@ def load_core_components():
                 raise ValueError("JSON file missing 'intents' key")
             for intent in intents_dict['intents']:
                 if 'tag' not in intent:
-                    raise KeyError(f"Intent missing 'tag' key: {intent}")
+                    if 'tags' in intent and isinstance(intent['tags'], list) and intent['tags']:
+                    
+                        intent['tag'] = intent['tags'][0]
+                else:
+                    raise KeyError(f"Intent missing both 'tag' and valid 'tags' key: {intent}")
+
         
         # Load classes
         with open('./Data/classes.pkl', 'rb') as f:
