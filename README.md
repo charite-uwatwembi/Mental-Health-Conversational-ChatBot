@@ -5,6 +5,7 @@ Here is a hosted link to the Streamlit app: [![Streamlit App](https://static.str
 A therapeutic chatbot designed to provide emotional support and mental health resources using BERT-based NLP.
 
 ![Chatbot Interface UI](image.png) 
+![Chatbot Interface UI](image.png)
 
 
 ##  Overview  
