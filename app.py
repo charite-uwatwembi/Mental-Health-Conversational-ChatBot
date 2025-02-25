@@ -116,7 +116,7 @@ def get_bert_embedding(sentence):
         return outputs.last_hidden_state.mean(dim=1).detach().numpy()
     except Exception as e:
         st.error(f"Embedding error: {str(e)}")
-        return np.zeros((1, 768))  # Fallback dummy embedding
+        return np.zeros((1, 768))
 
 def predict_class(sentence):
     try:
