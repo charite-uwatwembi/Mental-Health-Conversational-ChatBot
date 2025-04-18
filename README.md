@@ -8,7 +8,7 @@ A therapeutic chatbot designed to provide emotional support and mental health re
 
 ##  Overview  
 
-**Mindful Companion** is an AI-powered chatbot designed to provide a safe, supportive, and non-judgmental space for mental health conversations. The chatbot assists users in managing their emotional well-being by offering empathetic responses, stress-relief strategies, and mental health resources. It is **not a replacement for professional therapy** but serves as an accessible first step for individuals seeking guidance, comfort, or emotional support.  
+**Mindful Companion**  This is an AI-powered chatbot designed to provide a safe, supportive, and non-judgmental space for mental health conversations. The chatbot assists users in managing their emotional well-being by offering empathetic responses, stress-relief strategies, and mental health resources. It is **not a replacement for professional therapy** but serves as an accessible first step for individuals seeking guidance, comfort, or emotional support.  
 
 ##  Purpose and Relevance  
 
