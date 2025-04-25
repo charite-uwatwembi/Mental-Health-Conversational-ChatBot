@@ -1,4 +1,4 @@
-# Mindful Companion - Your AI Mental Health Conversational chatbot (Friend)
+# Mindful Companion - Your AI Mental Health Conversational chatbot (Friend🌚)
 
 Here is a hosted link to the Streamlit app: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mental-health-conversational-chatbot.streamlit.app/) 
 
