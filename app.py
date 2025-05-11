@@ -179,7 +179,7 @@ if prompt := st.chat_input("Type your message here..."):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
     
-    # Display user message
+    # Display user message in chat
     with st.chat_message("user"):
         st.markdown(f'<div class="chat-bubble user-bubble">{prompt}</div>', 
                    unsafe_allow_html=True)
