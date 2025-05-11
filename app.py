@@ -146,7 +146,7 @@ def get_response(intents_list):
         st.error(f"Response error: {str(e)}")
         return "Something went wrong. Please try again."
 
-# Streamlit Interface
+# Streamlit Interface Components
 st.title("🫂  Mindful Companion")
 st.markdown("""
     *Your safe space for mental health support*  
