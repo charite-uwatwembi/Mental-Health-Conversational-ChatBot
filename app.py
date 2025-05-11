@@ -87,7 +87,7 @@ def load_core_components():
         st.error(f"Initialization error: {str(e)}")
         st.stop()
 
-# Load components once at startup
+# Load components once at startup if not already loaded
 if not st.session_state.core_loaded:
     try:
         (st.session_state.tokenizer,
