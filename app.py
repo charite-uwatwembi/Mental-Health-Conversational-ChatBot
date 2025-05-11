@@ -101,7 +101,7 @@ if not st.session_state.core_loaded:
         st.error(f"Failed to initialize: {str(e)}")
         st.stop()
 
-# Helper Functions
+# Helper Functions for Inference
 def get_bert_embedding(sentence):
     try:
         inputs = st.session_state.tokenizer(
