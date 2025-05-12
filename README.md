@@ -53,7 +53,7 @@ git clone https://github.com/charite-uwatwembi/Mental-Health-Conversational-Chat
 cd Mental-Health-Conversational-ChatBot
 ```
 
-2. Install dependencies for this:
+2. Install dependencies for this project:
 
 ```bash
 
