@@ -47,7 +47,7 @@ By leveraging **BERT-based NLP models and deep learning**, the chatbot accuratel
 
 ### Setup
 
-1. Clone the repository:
+1. Clone this repository:
 ```bash
 git clone https://github.com/charite-uwatwembi/Mental-Health-Conversational-ChatBot
 cd Mental-Health-Conversational-ChatBot
