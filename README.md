@@ -29,7 +29,7 @@ By leveraging **BERT-based NLP models and deep learning**, the chatbot accuratel
 - 🚨 Crisis resource integration
 - 💬 Conversational interface with Streamlit
 - 🎯 Quick-access topics for common issues
-- 📚 Mental health education content
+- 📚 Mental health education contents
 
 ## Technologies Used
 
