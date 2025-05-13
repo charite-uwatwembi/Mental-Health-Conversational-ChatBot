@@ -25,7 +25,7 @@ By leveraging **BERT-based NLP models and deep learning**, the chatbot accuratel
 ## Features
 
 - 🤖 BERT-powered intent recognition
-- 🧠 Mental health FAQ knowledge base
+- 🧠 Mental health FAQ knowledge bases
 - 🚨 Crisis resource integrations
 - 💬 Conversational interface with Streamlit
 - 🎯 Quick-access topics for common issues
