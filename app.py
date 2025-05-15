@@ -175,7 +175,7 @@ for message in st.session_state.messages:
                    unsafe_allow_html=True)
 
 # User input
-if prompt := st.chat_input("Type your message here to..."):
+if prompt := st.chat_input("Type your message here to chat..."):
     # Add user message to chat history 
     st.session_state.messages.append({"role": "user", "content": prompt})
     
