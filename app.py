@@ -168,7 +168,7 @@ with st.sidebar:
 if 'messages' not in st.session_state:
     st.session_state.messages = []
 
-# Display chat messages
+# Display chat messages 
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(f'<div class="chat-bubble {message["role"]}-bubble">{message["content"]}</div>', 
@@ -184,7 +184,7 @@ if prompt := st.chat_input("Type your message here to chat..."):
         st.markdown(f'<div class="chat-bubble user-bubble">{prompt}</div>', 
                    unsafe_allow_html=True)
     
-    # Get response
+    # Get response from model
     predicted_intents = predict_class(prompt)
     response = get_response(predicted_intents)
     
