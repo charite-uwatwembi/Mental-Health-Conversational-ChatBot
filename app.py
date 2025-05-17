@@ -191,7 +191,7 @@ if prompt := st.chat_input("Type your message here to chat..."):
     # Add bot response to chat history
     st.session_state.messages.append({"role": "assistant", "content": response})
     
-    # Display bot response
+    # Display bot response in chat
     with st.chat_message("assistant"):
         st.markdown(f'<div class="chat-bubble bot-bubble">{response}</div>', 
                    unsafe_allow_html=True)
