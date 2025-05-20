@@ -184,14 +184,14 @@ if prompt := st.chat_input("Type your message here to chat..."):
         st.markdown(f'<div class="chat-bubble user-bubble">{prompt}</div>', 
                    unsafe_allow_html=True)
     
-    # Get response from model
+    # Get response from model 
     predicted_intents = predict_class(prompt)
     response = get_response(predicted_intents)
     
     # Add bot response to chat history
     st.session_state.messages.append({"role": "assistant", "content": response})
     
-    # Display bot response in chat
+    # Display bot response in chat 
     with st.chat_message("assistant"):
         st.markdown(f'<div class="chat-bubble bot-bubble">{response}</div>', 
                    unsafe_allow_html=True)
