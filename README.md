@@ -67,7 +67,7 @@ python -c "from transformers import BertTokenizer, BertModel; BertTokenizer.from
 ```
 
 ## Usage
-Start the chatbot:
+Start the chatbot conversation:
 
 ```bash
 streamlit run app.py
